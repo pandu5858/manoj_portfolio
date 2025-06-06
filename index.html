@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav__logo">Manoj<span>Pedada</span></a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link active">Home</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#portfolio" class="nav__link">Projects</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <button class="nav__close" id="nav-close">×</button>
+            </div>
+            <button class="nav__toggle" id="nav-toggle">☰</button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <div class="hero__subtitle">
+                            <div class="hero__line"></div>
+                            <p>Hello, I'm Manoj Pedada</p>
+                        </div>
+                        <h1 class="hero__title">
+                            Java Full Stack<br>
+                            <span>Developer</span>
+                        </h1>
+                        <p class="hero__description">
+                            A tech enthusiast focused on technology and expertise in Web,
+                            Mobile, and Software Development. Passionate about creating
+                            innovative solutions.
+                        </p>
+                        <div class="hero__buttons">
+                            <a href="files/Manoj_Resume.pdf" download class="btn herobtn1">
+                                <i class="fa-solid fa-circle-down"></i> Resume
+                            </a>
+                            <a href="#contact" class="btn herobtn2">Hire Me</a>
+                        </div>
+                        <div class="hero__social">
+                            <a href="https://github.com/ManojPedada05" class="hero__social-link"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/manoj-pedada-185039271" class="hero__social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="hero__image">
+                        <img src="https://i.postimg.cc/ncVVQmB6/1A9A3586.jpg" alt="Profile">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <p class="section-subtitle">
+                    A passionate developer with a strong foundation in technology and a drive for continuous improvement
+                </p>
+                <div class="about-row">
+                    <div class="about-box personal-info">
+                        <h3>Personal Information</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Visakhapatnam, Andhra Pradesh</p>
+                        <p><i class="fas fa-calendar-alt"></i> Born in 2001</p>
+                        <p>
+                            I'm a dedicated Information Technology professional with a strong passion for web development and
+                            emerging technologies. My journey began with mechanical engineering, but I found my true calling in the
+                            world of software development.
+                        </p>
+                        <div class="hobbies">
+                            <h4><i class="fas fa-heart"></i> Interests & Hobbies</h4>
+                            <div class="tags">
+                                <span>Technology & Innovation</span>
+                                <span>Cricket</span>
+                                <span>Badminton</span>
+                                <span>Continuous Learning</span>
+                                <span>Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-box education-section">
+                        <h3>Education</h3>
+                        <div class="edu-item">
+                            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="edu-content">
+                                <h4>B.Tech in Information Technology (AU)</h4>
+                                <p class="institute">Anil Nerukonda Institute of Technology & Sciences</p>
+                                <p class="year">2021–2024</p>
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="edu-content">
+                                <h4>Diploma in Mechanical Engineering (SBTET)</h4>
+                                <p class="institute">Sai Ganapathi Polytechnic College</p>
+                                <p class="year">2017–2020</p>
+                            </div>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div class="edu-content">
+                                <h4>Secondary School Certificate (SSC)</h4>
+                                <p class="institute">Sri Chaitanya Techno School</p>
+                                <p class="year">2016-2017</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills-section" id="skills">
+            <div class="container">
+                <h2 class="section__title">My <span>Skills</span></h2>
+                <h3 class="section__subtitle">A Comprehensive Overview of My Technical Expertise</h3>
+                <div class="skills__grid">
+                    <div class="skills__row">
+                        <div class="skills__category">
+                            <h3>⚡ Programming Languages</h3>
+                            <div class="skills__list">
+                                <div class="skill__item"><div class="skill__info"><span>Java</span><span>90%</span></div><div class="skill__bar"><div class="skill__progress" data-width="90"></div></div></div>
+                                <div class="skill__item"><div class="skill__info"><span>Python</span><span>85%</span></div><div class="skill__bar"><div class="skill__progress" data-width="85"></div></div></div>
+                                <div class="skill__item"><div class="skill__info"><span>C</span><span>65%</span></div><div class="skill__bar"><div class="skill__progress" data-width="65"></div></div></div>
+                            </div>
+                        </div>
+                        <div class="skills__category">
+                            <h3>🌐 Frontend Technologies</h3>
+                            <div class="skills__list">
+                                <div class="skill__item"><div class="skill__info"><span>HTML/CSS</span><span>92%</span></div><div class="skill__bar"><div class="skill__progress" data-width="92"></div></div></div>
+                                <div class="skill__item"><div class="skill__info"><span>Bootstrap</span><span>85%</span></div><div class="skill__bar"><div class="skill__progress" data-width="85"></div></div></div>
+                                <div class="skill__item"><div class="skill__info"><span>JavaScript</span><span>88%</span></div><div class="skill__bar"><div class="skill__progress" data-width="88"></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__row">
+                        <div class="skills__category">
+                            <h3>🗄️ Backend & Database</h3>
+                            <div class="skills__list">
+                                <div class="skill__item"><div class="skill__info"><span>MySQL</span><span>92%</span></div><div class="skill__bar"><div class="skill__progress" data-width="92"></div></div></div>
+                                <div class="skill__item"><div class="skill__info"><span>API Integration</span><span>85%</span></div><div class="skill__bar"><div class="skill__progress" data-width="85"></div></div></div>
+                                <div class="skill__item"><div class="skill__info"><span>LocalStorage</span><span>88%</span></div><div class="skill__bar"><div class="skill__progress" data-width="88"></div></div></div>
+                                <div class="skill__item"><div class="skill__info"><span>Axios</span><span>80%</span></div><div class="skill__bar"><div class="skill__progress" data-width="80"></div></div></div>
+                            </div>
+                        </div>
+                        <div class="skills__category">
+                            <h3>🛠 Tools & Platforms</h3>
+                            <div class="skills__list">
+                                <div class="skill__item"><div class="skill__info"><span>Git</span><span>85%</span></div><div class="skill__bar"><div class="skill__progress" data-width="85"></div></div></div>
+                                <div class="skill__item"><div class="skill__info"><span>GitHub</span><span>90%</span></div><div class="skill__bar"><div class="skill__progress" data-width="90"></div></div></div>
+                                <div class="skill__item"><div class="skill__info"><span>VS Code</span><span>92%</span></div><div class="skill__bar"><div class="skill__progress" data-width="92"></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="section__title">My <span>Projects</span></h2>
+                <p class="section__subtitle">
+                    A showcase of my latest projects demonstrating my skills in web development and problem-solving
+                </p>
+                <div class="row gy-4">
+                    <div class="col-md-6">
+                        <div class="portfolio__card" data-category="web">
+                            <div class="portfolio__image">
+                                <img src="./assets/quiz.png" alt="Quiz App Screenshot">
+                            </div>
+                            <div class="portfolio__content">
+                                <h3>Quiz Application</h3>
+                                <p>Interactive quiz application with dynamic questions, real-time scoring, and responsive design. Features DOM manipulation and event handling for seamless user experience.</p>
+                                <div class="portfolio__tags">
+                                    <span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>DOM Manipulation</span>
+                                </div>
+                                <div class="portfolio__buttons">
+                                    <a href="https://quiz-virid-alpha.vercel.app/" class="btn portbtn1" target="_blank"><i class="fas fa-play"></i> Live Demo</a>
+                                    <a href="https://github.com/ManojPedada05/quiz" class="btn portbtn2" target="_blank"><i class="fas fa-code"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio__card" data-category="https://">
+                            <div class="portfolio__image">
+                                <img src="./assets/weatherforecasting.jpg" alt="Weather App Screenshot">
+                            </div>
+                            <div class="portfolio__content">
+                                <h3>Weather Forecast App</h3>
+                                <p>Real-time weather application using WeatherAPI with dynamic themes that adapt based on current weather conditions. Built using modern JavaScript and responsive design.</p>
+                                <div class="portfolio__tags">
+                                    <span>JavaScript</span><span>WeatherAPI</span><span>Axios</span><span>CSS3</span>
+                                </div>
+                                <div class="portfolio__buttons">
+                                    <a href="https://weather-t5js.vercel.app/" class="btn portbtn1" target="_blank"><i class="fas fa-play"></i> Live Demo</a>
+                                    <a href="https://github.com/ManojPedada05/weather" class="btn portbtn2" target="_blank"><i class="fas fa-code"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio__card" data-category="web">
+                            <div class="portfolio__image">
+                                <img src="./assets/calculator.png" alt="Calculator App Screenshot">
+                            </div>
+                            <div class="portfolio__content">
+                                <h3>Calculator Application</h3>
+                                <p>Modern calculator with responsive design, basic arithmetic operations, and comprehensive error handling. Clean user interface with smooth transitions.</p>
+                                <div class="portfolio__tags">
+                                    <span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>Responsive Design</span>
+                                </div>
+                                <div class="portfolio__buttons">
+                                    <a href="https://calculator-nu-ecru.vercel.app/" class="btn portbtn1" target="_blank"><i class="fas fa-play"></i> Live Demo</a>
+                                    <a href="https://github.com/ManojPedada05/calculator" class="btn portbtn2" target="_blank"><i class="fas fa-code"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio__card" data-category="https://">
+                            <div class="portfolio__image">
+                                <img src="./assets/animal.jpeg" alt="Animal Categorization Screenshot">
+                            </div>
+                            <div class="portfolio__content">
+                                <h3>Animal Categorization Web</h3>
+                                <p>Educational web application combining web development and wildlife awareness. Showcases categorized data with interactive UI for better engagement.</p>
+                                <div class="portfolio__tags">
+                                    <span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>Data Management</span>
+                                </div>
+                                <div class="portfolio__buttons">
+                                    <a href="https://animal-to-do.vercel.app/" class="btn portbtn1" target="_blank"><i class="fas fa-play"></i> Live Demo</a>
+                                    <a href="https://github.com/ManojPedada05/animal-tab" class="btn portbtn2" target="_blank"><i class="fas fa-code"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio__card" data-category="https://">
+                            <div class="portfolio__image">
+                                <img src="./assets/todo.jpg" alt="Todo App Screenshot">
+                            </div>
+                            <div class="portfolio__content">
+                                <h3>Enhanced Todo App</h3>
+                                <p>Advanced task manager with Bootstrap-based responsiveness, LocalStorage for persistence, and efficient task categorization.</p>
+                                <div class="portfolio__tags">
+                                    <span>JavaScript</span><span>Bootstrap</span><span>LocalStorage</span><span>Responsive</span>
+                                </div>
+                                <div class="portfolio__buttons">
+                                    <a href="https://todo-nu-murex.vercel.app/" class="btn portbtn1" target="_blank"><i class="fas fa-play"></i> Live Demo</a>
+                                    <a href="https://github.com/ManojPedada05/Todo" class="btn portbtn2" target="_blank"><i class="fas fa-code"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="portfolio__card" data-category="https://">
+                            <div class="portfolio__image">
+                                <img src="./assets/images.jpeg" alt="Paytm Clone Screenshot">
+                            </div>
+                            <div class="portfolio__content">
+                                <h3>Paytm Homepage Clone</h3>
+                                <p>A pixel-perfect clone of the Paytm homepage highlighting skills in layout design, responsive UI, and detailed HTML/CSS replication.</p>
+                                <div class="portfolio__tags">
+                                    <span>HTML5</span><span>CSS3</span><span>Responsive Design</span><span>UI/UX</span>
+                                </div>
+                                <div class="portfolio__buttons">
+                                    <a href="https://patym-nine.vercel.app/" class="btn portbtn1" target="_blank"><i class="fas fa-play"></i> Live Demo</a>
+                                    <a href="https://github.com/ManojPedada05/Patym" class="btn port_btn2" target="_blank"><i class="fas fa-code"></i> Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Get in <span>Touch</span></h2>
+                <p class="section__subtitle">Let's discuss your next project</p>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <span class="icon"><i class="fa-solid fa-mobile"></i></span>
+                            <div>
+                                <strong>Phone</strong><br>
+                                9490496846
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon"><i class="fa-solid fa-phone"></i></span>
+                            <div>
+                                <strong>Alternative</strong><br>
+                                8688709123
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                            <div>
+                                <strong>Email</strong><br>
+                                manojpedada2001@gmail.com
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                            <div>
+                                <strong>LinkedIn</strong><br>
+                                Manoj Pedada
+                            </div>
+                        </div>
+                        <div>
+                            <span class="contact-item">
+                            <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+                            <div>
+                                <strong>Location</strong>
+                                <br>
+                                Visakhapatnam, Andhra Pradesh
+                                <br>
+                                Available for remote work and collaboration
+                            </div>
+                        </span>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <h3>Send a Message</h3>
+                        <div class="input-row">
+                            <input type="text" name="user_name" placeholder="Your name" required />
+                            <input type="email" name="user_email" placeholder="your.email@example.com" required />
+                        </div>
+                        <input type="text" name="subject" placeholder="Subject" required />
+                        <textarea name="message" rows="5" placeholder="Tell me about your project or just say hello..." required></textarea>
+                        <button type="submit" class="send-btn">Send Message</button>
+                    </form>
+                    <div class="highlight-box">
+                        <strong>Let's Build Something Amazing</strong>
+                        <p>
+                            Whether you have a project in mind or just want to chat about technology, I'm always excited to connect with fellow developers and potential collaborators.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023 Manoj Pedada. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
